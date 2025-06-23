@@ -15,8 +15,9 @@ const Formulario = () => {
     }
     return (
     <>
+
+    <form onSubmit={handleSubmit(onSubmit)} className="Form">
     <h2>Formulario</h2>
-    <form onSubmit={handleSubmit(onSubmit)}>
         <div>
             <label> nombre </label>
             <input type="text" {...register('name', {required: true })}></input>

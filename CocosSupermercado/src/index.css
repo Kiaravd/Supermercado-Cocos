@@ -23,11 +23,11 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  /*margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 h1 {
@@ -65,4 +65,31 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.Navbar-background{
+  background-color: #535bf2;
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.Form{
+  
+}
+#main{
+  margin-top: 100px;
+}
+.Card-Main{
+  border: blue;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+  position: flex;
+  justify-content: space-between;
 }
