@@ -5,6 +5,7 @@ import { Router } from './components/Router'
 //Importación de las páginas
 import HomePage from './pages/Home.jsx'
 import RegisterPage from './pages/Register'
+import LoginPage from './pages/Login.jsx'
 
 const appRoutes = [
   {
@@ -14,6 +15,10 @@ const appRoutes = [
   {
     path: '/register',
     Component: RegisterPage
+  },
+  {
+    path: '/login',
+    Component: LoginPage
   }
 ]
 
